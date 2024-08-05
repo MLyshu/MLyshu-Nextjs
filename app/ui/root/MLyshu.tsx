@@ -89,7 +89,7 @@ const Mlyshu = () => {
                 onMouseEnter={() => setButtonText('Youhou !!!!')}
                 onMouseLeave={() => setButtonText('Découvrez-moi !')}
             >
-                <Link href="/profil" className="text-white px-10 py-3 text-2xl">
+                <Link href="/aboutme/profile" className="text-white px-10 py-3 text-2xl">
                     {buttonText}
                 </Link>
             </motion.div>

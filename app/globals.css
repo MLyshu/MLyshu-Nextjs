@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body, html {
   display:flex;
   flex-grow:1;
@@ -10,4 +9,12 @@ body, html {
 
 html{
   height:100%;
+}
+
+nav a {
+  margin: 10px 0px;
+}
+
+nav div div a {
+  width:50px;
 }
