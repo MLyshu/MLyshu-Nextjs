@@ -11,8 +11,18 @@ html{
   height:100%;
 }
 
-nav a {
-  margin: 10px 0px;
+nav span {
+  display:flex;
+  align-items:center;
+}
+
+nav span:not(:first-of-type) a {
+  margin-left: 10px;
+}
+
+nav > span, nav div div a {
+  margin: 15px 0px;
+  font-size:20px;
 }
 
 nav div div a {

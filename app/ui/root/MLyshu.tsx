@@ -58,18 +58,21 @@ const Mlyshu = () => {
     return (
         <div className="flex flex-col grow justify-center items-center">
             <motion.div
-                className="container justify-center flex"
+                className="container items-center flex flex-col"
                 variants={container}
                 initial="hidden"
                 animate="visible"
                 exit="exit"
                 style={{ fontSize: '124px', fontWeight: 'bold', color: 'purple' }}
             >
+                <img src="./favicon.png" className="w-1/5"></img>
+                <div>
                 {letters.map((letter, index) => (
                     <motion.span key={index} variants={child}>
                         {letter}
                     </motion.span>
                 ))}
+                </div>
             </motion.div>
             <motion.div
                 className="container2"
