@@ -31,7 +31,7 @@ const child = {
 const Navbar = () => {
     return (
         <motion.div
-                className="w-1/5 flex flex-col bg-blue-950 p-8 text-white"
+                className="w-60 flex flex-col bg-blue-950 p-8 text-white"
                 variants={container}
                 initial="hidden"
                 animate="visible"

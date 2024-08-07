@@ -5,6 +5,7 @@
 body, html {
   display:flex;
   flex-grow:1;
+  color:rgb(23 37 84);
 }
 
 html{
@@ -27,4 +28,41 @@ nav > span, nav div div a {
 
 nav div div a {
   width:50px;
+}
+
+h1 {
+  font-size:50px;
+  font-weight:600;
+  background-color:rgb(23 37 84);
+  color:white;
+  padding:10px 60px;
+  border-radius:10px;
+  box-shadow: 5px 5px 10px 3px rgba(23, 37, 84, 0.9);
+}
+
+#profileText a:hover {
+  text-decoration: underline;
+}
+
+#profileText p span {
+  background-color:white;
+  color: rgb(23 37 84);
+  padding: 5px 10px;
+}
+
+#profileText p {
+  margin: 20px 0px;
+  text-indent: 40px;
+  padding: 5px 10px;
+  line-height: 35px;
+}
+
+#profileText li {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#profileText svg {
+  margin-right:10px;
 }
