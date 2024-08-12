@@ -2,12 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body, html {
   display:flex;
   flex-grow:1;
+  color:white;
+  background-color: rgb(3 7 18) !important;
 }
 
 html{
   height:100%;
+}
+
+nav span {
+  display:flex;
+  align-items:center;
+}
+
+nav span:not(:first-of-type) a {
+  margin-left: 10px;
+}
+
+#lbw, #ronron, #binh {
+  display:flex;  
+  background-size: cover;
+  height:400px;
+  background-position: center;
+}
+
+#lbw {
+  background-image: url('../public/lbw.jpg');
+}
+
+#ronron {
+  background-image: url('../public/ronron.jpg');
+}
+
+#binh {
+  background-image: url('../public/binh.png');
 }
