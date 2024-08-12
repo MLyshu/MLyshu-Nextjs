@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Navbar from "../ui/aboutme/navbar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {

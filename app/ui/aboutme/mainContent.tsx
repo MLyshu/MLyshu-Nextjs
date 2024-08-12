@@ -60,7 +60,7 @@ const MainContent = () => {
                             </div>
                             <div className="bg-gray-800 p-4 flex flex-col">
                                 <div className="mb-4 text-justify">
-                                    <p>Suite à mon DUT et la proposition d'alternance de mon entreprise, j'ai décidé de continuer les études une année de plus et de choisir la licence professionnelle poursuivant mon DUT.</p>
+                                    <p>Suite à mon DUT et la proposition d&lsquo;alternance de mon entreprise, j&lsquo;ai décidé de continuer les études une année de plus et de choisir la licence professionnelle poursuivant mon DUT.</p>
                                 </div>
                                 <div className="flex grow justify-center">
                                     <div className="flex justify-center bg-gray-950 w-fit rounded-full px-4 py-2 font-bold mr-2">
@@ -106,7 +106,7 @@ const MainContent = () => {
                             <div className="bg-gray-800 p-4 flex flex-col">
                                 <div className="mb-4 text-justify">
                                     <p>Formation en 2 ans avec un stage lors du 4ème semestre.</p>
-                                    <p className="mt-2">De mon côté, l'informatique m'avait toujours interpellé et notamment le développement en tous genres. Il était donc naturel pour moi d'avoir choisi un diplôme dans le développement pour mes années post-bac. N'ayant jamais touché à un quelconque langage de programmation et ayant aucune connaissance dans ce domaine, comparé à d'autres j'étais donc un peu en dessous mais cela ne m'a pas empêché d'y aller à fond afin de rattraper le peu de retard que j'avais.</p>
+                                    <p className="mt-2">De mon côté, l&lsquo;informatique m&lsquo;avait toujours interpellé et notamment le développement en tous genres. Il était donc naturel pour moi d&lsquo;avoir choisi un diplôme dans le développement pour mes années post-bac. n&lsquo;ayant jamais touché à un quelconque langage de programmation et ayant aucune connaissance dans ce domaine, comparé à d&lsquo;autres j&lsquo;étais donc un peu en dessous mais cela ne m&lsquo;a pas empêché d&lsquo;y aller à fond afin de rattraper le peu de retard que j&lsquo;avais.</p>
                                 </div>
                                 <div className="flex grow justify-center">
                                     <div className="flex justify-center bg-gray-950 w-fit rounded-full px-4 py-2 font-bold mr-2">
@@ -236,7 +236,7 @@ const MainContent = () => {
                             <div className="bg-gray-800 p-4 flex flex-col">
                                 <div className="mb-4 text-justify">
                                     <p>- Création de site internet sous Wordpress</p>
-                                    <p>- Développement d'un site interne à l'entreprise sous CodeIgniter</p>
+                                    <p>- Développement d&lsquo;un site interne à l&lsquo;entreprise sous CodeIgniter</p>
                                     <p>- Réunions/appels avec les clients</p>
                                     <p>- Maintenance des sites</p>
                                 </div>
@@ -386,15 +386,15 @@ const MainContent = () => {
                         <div id="lbw">
                             <div className="grow place-content-center" style={{backgroundColor:'rgba(0,0,0,0.6)'}}>
                                 <p className="text-4xl font-bold" >LeBlueWall</p>
-                                <p className="text-2xl">Association d'ultra de la Karmine Corp</p>
+                                <p className="text-2xl">Association d&lsquo;ultra de la Karmine Corp</p>
                             </div>
                         </div>
                         <div>
                             <p className="bg-gray-900 py-2 text-xl font-bold">Pôle évènement / Pôle média</p>
                             <div className="bg-gray-800 p-4">
                                 <div className="text-justify">
-                                    <p>- Organisation d'évènements lors de déplacements de l'association et organisation d'évènements en ligne pour la communauté</p>
-                                    <p>- Régisseur de la chaîne twitch lors d'évènements qui se doivent d'être couvert lors d'un live.</p>
+                                    <p>- Organisation d&lsquo;évènements lors de déplacements de l&lsquo;association et organisation d&lsquo;évènements en ligne pour la communauté</p>
+                                    <p>- Régisseur de la chaîne twitch lors d&lsquo;évènements qui se doivent d&lsquo;être couvert lors d&lsquo;un live.</p>
                                 </div>
                                 <div className="flex grow justify-center pt-4">
                                     <div className="flex justify-center bg-yellow-500 text-gray-950 w-fit rounded-full px-4 py-2 font-bold mr-2">
@@ -411,16 +411,16 @@ const MainContent = () => {
                     <div style={{width:'400px'}}>
                         <div id="binh">
                             <div className="grow place-content-center" style={{backgroundColor:'rgba(0,0,0,0.6)'}}>
-                                <p className="text-4xl font-bold" >Bin'Harry</p>
-                                <p className="text-2xl">Association d'étudiant</p>
+                                <p className="text-4xl font-bold" >Bin&lsquo;Harry</p>
+                                <p className="text-2xl">Association d&lsquo;étudiant</p>
                             </div>
                         </div>
                         <div>
-                            <p className="bg-gray-900 py-2 text-xl font-bold">Président de l'association</p>
+                            <p className="bg-gray-900 py-2 text-xl font-bold">Président de l&lsquo;association</p>
                             <div className="bg-gray-800 p-4">
                                 <div className="text-justify">
-                                    <p>- Organisation d'évènements pour les étudiants</p>
-                                    <p>- Gestion de l'administration de l'association</p>
+                                    <p>- Organisation d&lsquo;évènements pour les étudiants</p>
+                                    <p>- Gestion de l&lsquo;administration de l&lsquo;association</p>
                                 </div>
                                 <div className="flex grow justify-center pt-4">
                                     <div className="flex justify-center bg-yellow-500 text-gray-950 w-fit rounded-full px-4 py-2 font-bold mr-2">
