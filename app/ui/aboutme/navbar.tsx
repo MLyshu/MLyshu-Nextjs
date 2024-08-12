@@ -145,7 +145,7 @@ const Navbar = () => {
                         </div>
                     </motion.div>
                     <div className="flex grow flex-col justify-end p-8">
-                        <p className='bg-gray-800 p-2 text-center text-xl font-bold' href="/aboutme/contact">Contact</p>
+                        <p className='bg-gray-800 p-2 text-center text-xl font-bold'>Contact</p>
                         <div className="flex mt-3 flex-col">
                             <div className="flex">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6 mr-2">
