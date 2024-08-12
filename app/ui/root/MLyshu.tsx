@@ -56,16 +56,18 @@ const Mlyshu = () => {
     const [buttonText, setButtonText] = useState('Découvrez-moi !');
 
     return (
-        <div className="flex flex-col grow justify-center items-center">
+        <div className="flex flex-col grow justify-center items-center bg-gray-950 text-white">
             <motion.div
                 className="container items-center flex flex-col"
                 variants={container}
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                style={{ fontSize: '124px', fontWeight: 'bold', color: 'purple' }}
+                style={{ fontSize: '124px', fontWeight: 'bold' }}
             >
-                <img src="./favicon.png" className="w-1/5"></img>
+                <div className="bg-white rounded-full w-1/4 p-8">
+                    <img className="" src="./favicon.png"></img>
+                </div>
                 <div>
                 {letters.map((letter, index) => (
                     <motion.span key={index} variants={child}>
@@ -79,12 +81,12 @@ const Mlyshu = () => {
                 variants={container2}
                 initial="hidden"
                 animate="visible"
-                style={{ fontSize: '45px', color: 'purple' }}
+                style={{ fontSize: '45px' }}
             >
                 Développeur Web Junior
             </motion.div>
             <motion.div
-                className="flex mt-52 rounded-full bg-blue-900 "
+                className="flex mt-52 rounded-full bg-gray-900 "
                 variants={button}
                 initial="hidden"
                 animate="visible" 
@@ -92,7 +94,7 @@ const Mlyshu = () => {
                 onMouseEnter={() => setButtonText('Youhou !!!!')}
                 onMouseLeave={() => setButtonText('Découvrez-moi !')}
             >
-                <Link href="/aboutme/profile" className="text-white px-10 py-3 text-2xl">
+                <Link href="/aboutme/main" className=" px-10 py-3 text-2xl">
                     {buttonText}
                 </Link>
             </motion.div>
