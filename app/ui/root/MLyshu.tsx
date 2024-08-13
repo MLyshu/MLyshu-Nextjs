@@ -63,9 +63,9 @@ const Mlyshu = () => {
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                style={{ fontSize: '124px', fontWeight: 'bold' }}
+                style={{ fontSize: '100px', fontWeight: 'bold' }}
             >
-                <div className="bg-white rounded-full w-1/4 p-8">
+                <div className="bg-white rounded-full p-8" style={{width:'300px'}}>
                     <img className="" src="./favicon.png"></img>
                 </div>
                 <div>
@@ -81,12 +81,12 @@ const Mlyshu = () => {
                 variants={container2}
                 initial="hidden"
                 animate="visible"
-                style={{ fontSize: '45px' }}
+                style={{ fontSize: '35px' }}
             >
                 Développeur Web Junior
             </motion.div>
             <motion.div
-                className="flex mt-52 rounded-full bg-gray-900 "
+                className="flex rounded-full bg-gray-900 mt-32"
                 variants={button}
                 initial="hidden"
                 animate="visible" 
