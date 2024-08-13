@@ -40,3 +40,23 @@ nav span:not(:first-of-type) a {
 #binh {
   background-image: url('../public/binh.png');
 }
+
+@media screen and (max-width: 1700px) {
+  .box {
+    width: 500px !important;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .mainContent {
+    padding: 30px !important;
+  }
+}
+
+.box {
+  width:600px;
+}
+
+.mainContent {
+  padding:80px;
+}
