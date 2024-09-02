@@ -170,7 +170,7 @@ const Navbar = () => {
                             <div>
                                 <p>- Développer mes compétences en framework JS</p>
                                 <p>- Apprendre le japonais</p>
-                                <p>- Continuer de m&apos;investir et d'aider des associations</p>
+                                <p>- Continuer de m&apos;investir et d&apos;aider des associations</p>
                             </div>
                         </motion.div>
                     </motion.div>
