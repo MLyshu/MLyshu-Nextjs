@@ -116,7 +116,7 @@ const Navbar = () => {
                                 <div className="flex grow">
                                     <p>Next.JS</p>
                                     <div className="flex grow justify-end">
-                                        <Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'none'}/><Star fill={'none'}/>
+                                        <Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'none'}/>
                                     </div>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@ const Navbar = () => {
                                         <path d="M19.5 6h-15v9h15V6Z" />
                                         <path fillRule="evenodd" d="M3.375 3C2.339 3 1.5 3.84 1.5 4.875v11.25C1.5 17.16 2.34 18 3.375 18H9.75v1.5H6A.75.75 0 0 0 6 21h12a.75.75 0 0 0 0-1.5h-3.75V18h6.375c1.035 0 1.875-.84 1.875-1.875V4.875C22.5 3.839 21.66 3 20.625 3H3.375Zm0 13.5h17.25a.375.375 0 0 0 .375-.375V4.875a.375.375 0 0 0-.375-.375H3.375A.375.375 0 0 0 3 4.875v11.25c0 .207.168.375.375.375Z" clipRule="evenodd" />
                                     </svg>
-                                    <p>Jeux vidéos</p>
+                                    <p>Jeux de réflexion</p>
                                 </div>
                             </div>
                         </motion.div>
@@ -160,7 +160,7 @@ const Navbar = () => {
                                 <p>Japonais</p>
                             </div>
                             <div className="flex justify-around mt-2">
-                                <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">C1</p>
+                                <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">C2</p>
                                 <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">B1</p>
                                 <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">A1</p>
                             </div>
@@ -168,9 +168,9 @@ const Navbar = () => {
                         <motion.div className="px-6">
                             <h1 className="text-xl font-bold my-3">Mes objectifs personnels</h1>
                             <div>
-                                <p>- Trouver un CDI</p>
                                 <p>- Développer mes compétences en framework JS</p>
                                 <p>- Apprendre le japonais</p>
+                                <p>- Continuer de m&apos;investir et d&apos;aider des associations</p>
                             </div>
                         </motion.div>
                     </motion.div>
