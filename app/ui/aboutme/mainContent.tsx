@@ -57,7 +57,7 @@ const MainContent = () => {
                         name={'LeBlueWall'} 
                         desc={'Association de supporters de la Karmine Corp'} 
                         title={'Pôle événementiel / Pôle média'} 
-                        content={'Organisation d&aposévènements lors de déplacements de l&aposassociation ou d&aposévènements en ligne pour la communauté. Régisseur de la chaîne Twitch.'}
+                        content={"Organisation d'évènements lors de déplacements de l&aposassociation ou d'évènements en ligne pour la communauté. Régisseur de la chaîne Twitch."}
                         date={'10/2023-Maintenant'}>
                     </Asso>
                     <Asso id={'binh'} 
