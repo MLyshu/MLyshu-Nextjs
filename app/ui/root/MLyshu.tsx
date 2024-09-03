@@ -58,14 +58,13 @@ const Mlyshu = () => {
     return (
         <div className="flex flex-col grow justify-center items-center bg-gray-950 text-white">
             <motion.div
-                className="container items-center flex flex-col"
+                className="container items-center flex flex-col font-bold text-4xl md:text-8xl"
                 variants={container}
                 initial="hidden"
                 animate="visible"
                 exit="exit"
-                style={{ fontSize: '100px', fontWeight: 'bold' }}
             >
-                <div className="bg-white rounded-full p-8" style={{width:'300px'}}>
+                <div id="rootLogo" className="bg-white rounded-full p-8">
                     <img className="" src="./favicon.png"></img>
                 </div>
                 <div>
@@ -77,16 +76,15 @@ const Mlyshu = () => {
                 </div>
             </motion.div>
             <motion.div
-                className="container2"
+                className="container2 text-2xl md:text-5xl"
                 variants={container2}
                 initial="hidden"
                 animate="visible"
-                style={{ fontSize: '35px' }}
             >
                 Développeur Web Junior
             </motion.div>
             <motion.div
-                className="flex rounded-full bg-gray-900 mt-32"
+                className="flex rounded-full bg-gray-900 mt-16 md:mt-32"
                 variants={button}
                 initial="hidden"
                 animate="visible" 
@@ -94,7 +92,7 @@ const Mlyshu = () => {
                 onMouseEnter={() => setButtonText('Youhou !!!!')}
                 onMouseLeave={() => setButtonText('Découvrez-moi !')}
             >
-                <Link href="/aboutme/main" className=" px-10 py-3 text-2xl">
+                <Link href="/aboutme/main" className="px-10 py-3 text-xl md:text-2xl">
                     {buttonText}
                 </Link>
             </motion.div>

@@ -53,10 +53,24 @@ nav span:not(:first-of-type) a {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .mainContent {
+    padding-top:0px !important;
+  }
+
+  #rootLogo {
+    width:200px !important;
+  }
+}
+
 .box {
   width:600px;
 }
 
 .mainContent {
   padding-top:80px;
+}
+
+#rootLogo {
+  width:300px;
 }
