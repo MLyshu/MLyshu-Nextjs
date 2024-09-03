@@ -28,7 +28,7 @@ const container = {
 
 const Asso = ({id, name, desc, title, content, date} : AssoProps) => {
     return (
-        <div style={{width:'350px'}}>
+        <div style={{width:'350px'}} className="mb-8">
             <div id={id} style={{height:'200px'}}>
                 <div className="grow place-content-center" style={{backgroundColor:'rgba(0,0,0,0.6)'}}>
                     <p className="text-4xl font-bold" >{name}</p>

@@ -45,7 +45,7 @@ const MainContent = () => {
             </div>
             <div className="flex flex-col grow text-center border-white br-2 mt-20">
                 <h2 className="text-3xl font-bold">Mon implication dans des associations</h2>
-                <div className="flex mt-10 flex-col 2xl:flex-row 2xl:justify-evenly">
+                <div className="flex items-center mt-10 flex-col md:flex-row md:flex-wrap justify-evenly">
                     <Asso id={'ronron'} 
                         name={'Ronron Association'} 
                         desc={'Association spécialisée dans la protection animale'} 
@@ -69,7 +69,7 @@ const MainContent = () => {
                     </Asso>
                 </div>
             </div>
-            <div className="flex grow mt-20 sm:flex-col lg:flex-row">
+            <div className="flex grow mt-20 flex-col lg:flex-row">
                 <div className="flex flex-col grow text-center border-white br-2">
                     <h2 className="text-3xl font-bold">Mes formations</h2>
                     <div className="flex flex-col mt-10 items-center">
@@ -97,7 +97,7 @@ const MainContent = () => {
                     </div>
                 </div>
                 <div className="flex flex-col grow text-center border-white br-2">
-                    <h2 className="text-3xl font-bold sm:mt-10 lg:mt-0">Mes expériences</h2>
+                    <h2 className="text-3xl font-bold mt-10 lg:mt-0">Mes expériences</h2>
                     <div className="flex flex-col mt-10 items-center">
                         <Experience name={"Intérimaire - Agent courrier"} 
                             desc={"Tri des courriers/colis"} 
