@@ -114,7 +114,7 @@ const Navbar = () => {
                                     </div>
                                 </div>
                                 <div className="flex grow">
-                                    <p>Next.JS</p>
+                                    <p>React</p>
                                     <div className="flex grow justify-end">
                                         <Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'gold'}/><Star fill={'none'}/>
                                     </div>
@@ -167,8 +167,7 @@ const Navbar = () => {
                             </div>
                             <div className="flex justify-around mt-2">
                                 <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">C2</p>
-                                <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">B1</p>
-                                <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">A1</p>
+                                <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">B2</p>
                             </div>
                         </motion.div>
                         <motion.div className="px-6">
@@ -178,14 +177,6 @@ const Navbar = () => {
                                 <p>Motivé</p>
                                 <p>Adaptabilité</p>
                                 <p>Compréhensif</p>
-                            </div>
-                        </motion.div>
-                        <motion.div className="px-6">
-                            <h1 className="text-xl font-bold my-3">Mes objectifs personnels</h1>
-                            <div>
-                                <p>- Développer mes compétences en framework JS</p>
-                                <p>- Apprendre le japonais</p>
-                                <p>- Continuer de m&apos;investir et d&apos;aider des associations</p>
                             </div>
                         </motion.div>
                     </motion.div>

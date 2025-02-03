@@ -46,19 +46,12 @@ const MainContent = () => {
             <div className="flex flex-col grow text-center border-white br-2 mt-20">
                 <h2 className="text-3xl font-bold">Mon implication dans des associations</h2>
                 <div className="flex items-center mt-10 flex-col md:flex-row md:flex-wrap justify-evenly">
-                    <Asso id={'ronron'} 
-                        name={'Ronron Association'} 
-                        desc={'Association spécialisée dans la protection animale'} 
-                        title={'Gestion site internet'} 
-                        content={'Refonte du site internet Wordpress (en cours) et maintenance du contenu du site.'}
-                        date={'07/2024-Maintenant'}>
-                    </Asso>
                     <Asso id={'lbw'} 
                         name={'LeBlueWall'} 
                         desc={'Association de supporters de la Karmine Corp'} 
                         title={'Pôle événementiel / Pôle média'} 
                         content={"Organisation d'évènements lors de déplacements de l&aposassociation ou d'évènements en ligne pour la communauté. Régisseur de la chaîne Twitch."}
-                        date={'10/2023-Maintenant'}>
+                        date={'10/2023-01/2025'}>
                     </Asso>
                     <Asso id={'binh'} 
                         name={"Bin'Harry"} 
