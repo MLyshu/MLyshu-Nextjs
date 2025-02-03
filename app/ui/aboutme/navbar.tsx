@@ -163,7 +163,6 @@ const Navbar = () => {
                             <div className="flex justify-around">
                                 <p>Français</p>
                                 <p>Anglais</p>
-                                <p>Japonais</p>
                             </div>
                             <div className="flex justify-around mt-2">
                                 <p className="bg-gray-800 rounded-full py-2 px-3 shadow-lg">C2</p>
